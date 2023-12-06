@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #511ff7;
+}
+
+.navbar h1 {
+    color: rgb(255, 255, 30);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: rgb(255, 255, 30);
+    color: #511ff7;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-flerbos .nav-link.active:hover {
+    color: rgb(255, 255, 30);
+}
+
+
+.navbar-toggler {
+    background-color: #b8a6f2
+}
+
+.section-title {
+    font-family: 'Kablammo', serif;
+    color: #511ff7;
+}
+
+.this-pink-i-like {
+    color: #ff5890;
+}
+
+#about,
+#flerbos {
+    color: #511ff7;
+    background-color: #b8a6f2;
+}
+
+#flerbos h5 {
+    font-family: 'Kablammo', serif;
+}
+
+.text-colored {
+    color: rgb(255, 255, 30);
+}
+
+#come-on-down,
+#events {
+    color: #511ff7;
+    background-color: #ff5890;
+}
+
+#come-on-down button,
+.nav-flerbos .nav-link.active {
+    background-color: #511ff7;
+    color: rgb(255, 255, 30);
+}
+
+.nav-flerbos .nav-link:hover {
+    color: #511ff7;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: #511ff7;
+}
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
